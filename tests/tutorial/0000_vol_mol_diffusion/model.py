@@ -1,6 +1,6 @@
 """
 0000
-This is the first totorial where we will build a model 
+This is the first tutorial where we will build a model
 where a single molecule is released and diffused for 
 10 iterations.
 """
@@ -71,7 +71,7 @@ is a fully-specified type of a molecule.
 release_site_a = m.ReleaseSite(
     name = 'rel_a', 
     complex = species_a, 
-    location=(0, 0, 0), 
+    location=(0, 0, 0),
     number_to_release = 1
 )
 
