@@ -66,7 +66,9 @@ Now we define a release site telling to release 1 molecule a
 at x,y,z location 0, 0, 0 (units are in micrometers).
 The reason why the argument that sets the species is called 
 complex is due to BioNetGen terminology where a complex 
-is a fully-specified type of a molecule.
+is a fully-specified type of a molecule. 
+
+(NOTE: weird last sentence)
 """
 release_site_a = m.ReleaseSite(
     name = 'rel_a', 
